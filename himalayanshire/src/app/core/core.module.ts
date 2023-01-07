@@ -8,8 +8,6 @@ import { ContactComponent } from './contact/contact.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 
-
-
 @NgModule({
   declarations: [
     RoomDetailsComponent,
