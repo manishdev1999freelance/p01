@@ -5,6 +5,8 @@ import { RoomsComponent } from './rooms/rooms.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -14,10 +16,21 @@ import { ContactComponent } from './contact/contact.component';
     RoomsComponent,
     AboutComponent,
     HomeComponent,
-    ContactComponent
+    ContactComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    RoomDetailsComponent,
+    RoomsComponent,
+    AboutComponent,
+    HomeComponent,
+    ContactComponent,
+    NavbarComponent,
+    FooterComponent
   ]
 })
 export class CoreModule { }
